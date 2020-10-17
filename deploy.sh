@@ -27,3 +27,7 @@ git commit -m "$msg"
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 git push origin HEAD:master
+
+cd -
+
+git commit -am "$msg"
